@@ -17,7 +17,8 @@
         
         align-items: center;
         justify-content: center;
-
+        
+        width: 500px;
     }
 
     .contain-login {
@@ -32,7 +33,85 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+    main {
+        width: 400px;
+    }
 
+}
+
+@media only screen and (max-width: 430px) {
+
+    main {
+        width: 300px;
+        
+        margin: 10px;
+        padding: 5px;
+        
+    }
+
+    .contain-login {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    h1 {
+        text-align: center !important;
+    }
+
+    .sign-up {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .sign-up button {
+        margin-left: 15px;
+
+    }
+
+    .sign-up label {
+        margin-left: 5px;
+    }
+
+    .login-btt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .contain-login input{
+        width: 100%;
+    }
+
+
+    .remember input {
+        width: 20%;
+    }
+
+    .remember label {
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+}
+
+@media only screen and (max-width: 305px) {
+    
+    .sign-up button {
+        
+        margin-right: 20px;
+    }
+
+    .sign-up label {
+        text-align: center;
+    }
+}
 
 
 
@@ -46,6 +125,9 @@
 
 body {
     background-image: linear-gradient(45deg, #7a7ee9 20%,#6165da, #3E41AD);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 100vh;
 
 
@@ -56,8 +138,7 @@ body {
 
 main {
     background-color: white;
-    width: 900px;
-    max-width: 80vw;
+    max-width: 900px;
     
     
 
