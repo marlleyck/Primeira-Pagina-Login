@@ -105,6 +105,10 @@
         font-size: 13px;
     }
 
+    .forgot {
+        text-align: center;
+    }
+
 
 }
 
@@ -116,6 +120,10 @@
     }
 
     .sign-up label {
+        text-align: center;
+    }
+
+    .forgot {
         text-align: center;
     }
 }
