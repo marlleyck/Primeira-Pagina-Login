@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url(fonts/Jost/static/Jost-Regular.ttf);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, #7a7ee9 20%,#6165da, #3E41AD);
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    
+
+    box-shadow: 1px 2px 8px #474a9e;
+
+    border-radius: 8px;
+
+    
+
+    position: relative;
+}
+
+
+
+.contain-backg {
+
+    background-color: #7a7ee950;
+    width: 58%;
+    height: 490px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    float: left;
+    
+}
+
+.contain-backg img {
+    width: 400px;
+
+}
+
+
+.contain-login {
+    padding: 10px;
+    margin: 50px;
+
+
+    float: right;
+    
+
+}
+
+.sign-up {
+    position: absolute;
+    top: 0;
+    
+    padding-top: 25px;
+    
+}
+
+.sign-up label {
+    font-family: jost-regular;
+    color: gray;
+    margin-right: 5px;
+}
+
+.sign-up button {
+    cursor: pointer;
+
+    font-family: poppins-regular;
+    padding: 7px;
+    width: 80px;
+
+    outline: none;
+    border: 1px solid #7a7ee9;
+    border-radius: 15px;
+
+    background-color: transparent;
+
+    transition: .2s ease-in-out;
+}
+
+.sign-up button:hover {
+    background-color: #7a7ee9;
+    color: white;
+}
+
+
+h1 {
+    text-align: left;
+    font-family: poppins-regular;
+
+    padding: 50px 0 20px 0;
+}
+
+fieldset {
+    border: none;
+
+    font-family: jost-regular;
+}
+
+
+fieldset input {
+    display: block;
+
+    width: 250px;
+
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+
+    padding: 10px;
+
+    transition: .2s ease-in-out;
+}
+
+fieldset input:focus {
+    border-color: #6165da;
+}
+
+
+.senha {
+    margin-top: 15px;
+}
+
+
+.forgot {
+    padding: 10px 0;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: gray;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-btt input {
+    cursor: pointer;
+    box-sizing: border-box;
+
+    font-family: poppins-regular;
+    padding: 7px;
+
+    outline: none;
+    border: 1px solid #7a7ee9;
+    border-radius: 15px;
+
+    background-color: #7a7ee9;
+
+    color: white;
+    width: 100px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+
+    font-family: poppins-regular;
+    font-size: 14px;
+
+    padding: 15px 0;
+
+
+}
+
+.remember input {
+    padding: 0;
+}
+
+.remember label {
+    padding-left: 5px;
+    color: gray;
+}
+
+
