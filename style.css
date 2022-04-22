@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+/* ================== FONTES =================== */
+
 @font-face {
     font-family: poppins-regular;
     src: url(fonts/Poppins/Poppins-Regular.ttf);
@@ -9,6 +12,10 @@
     font-family: jost-regular;
     src: url(fonts/Jost/static/Jost-Regular.ttf);
 }
+
+
+/* ================== MEDIA QUERIES =================== */
+
 
 
 @media only screen and (max-width: 920px) {
@@ -114,7 +121,7 @@
 }
 
 
-
+/* ================== BODY E MAIN =================== */
 
 
 * {
@@ -155,6 +162,10 @@ main {
 
 
 
+/* ================== ASIDE IMAGEM =================== */
+
+
+
 .contain-backg {
 
     background-color: #7a7ee950;
@@ -178,6 +189,10 @@ main {
 }
 
 
+
+/* ================== ASIDE LOGIN =================== */
+
+
 .contain-login {
     padding: 10px;
     margin: 50px;
@@ -187,6 +202,8 @@ main {
     
 
 }
+
+/* ================== SIGN UP =================== */
 
 .sign-up {
     position: absolute;
@@ -224,12 +241,22 @@ main {
 }
 
 
+/* ================== TEXTO LOGIN =================== */
+
+
+
 h1 {
     text-align: left;
     font-family: poppins-regular;
 
     padding: 50px 0 20px 0;
 }
+
+
+
+/* ================== FORMULÁRIO =================== */
+
+
 
 fieldset {
     border: none;
@@ -291,6 +318,10 @@ fieldset input:focus {
     color: white;
     width: 100px;
 }
+
+
+/* ================== MANTENHA-ME CONECTADO =================== */
+
 
 .remember {
     display: flex;
