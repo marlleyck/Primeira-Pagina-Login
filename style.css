@@ -169,6 +169,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 main {
@@ -373,3 +375,17 @@ fieldset input:focus {
 }
 
 
+/* ================== FOOTER =================== */
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    font-family: jost-regular;
+    color: black;
+    font-size: 15px;
+}
+
+footer span {
+    color: white;
+}
