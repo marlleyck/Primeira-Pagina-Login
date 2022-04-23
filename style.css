@@ -97,13 +97,13 @@
     }
 
     .remember input {
-        width: 30px;
+        width: 20px;
 
     }
 
     .remember label {
         text-align: center;
-        width: 200px;
+        width: 180px;
         font-size: 13px;
 
     }
