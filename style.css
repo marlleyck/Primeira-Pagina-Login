@@ -40,6 +40,7 @@
         width: 400px;
     }
 
+
 }
 
 @media only screen and (max-width: 430px) {
@@ -91,13 +92,20 @@
     }
 
 
+    .remember {
+        justify-content: center;
+    }
+
     .remember input {
-        width: 20%;
+        width: 30px;
+
     }
 
     .remember label {
-        width: 100%;
+        text-align: center;
+        width: 200px;
         font-size: 13px;
+
     }
 
     .forgot {
