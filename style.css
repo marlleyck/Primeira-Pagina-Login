@@ -19,6 +19,11 @@
 
 
 @media only screen and (max-width: 920px) {
+    body {
+        height: 100vh;
+    }
+
+
     main {
         flex-direction: column;
         
@@ -36,6 +41,10 @@
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        height: 100vh;
+    }
+
     main {
         width: 400px;
     }
@@ -44,11 +53,15 @@
 }
 
 @media only screen and (max-width: 430px) {
+    body {
+        height: 100vh;
+    }
+
+
 
     main {
         width: 300px;
-        
-        margin: 10px;
+        height: 100vh;
         padding: 5px;
         
     }
@@ -115,8 +128,13 @@
 
 }
 
-@media only screen and (max-width: 305px) {
-    
+@media only screen and (max-width: 350px) {
+
+    body {
+        height: 100vh;
+    }
+
+
     .sign-up button {
         
         margin-right: 20px;
