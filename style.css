@@ -149,6 +149,18 @@
 }
 
 
+@media only screen and (max-height: 535px) {
+    html, body {
+        height: 150vh;
+    }
+
+    main {
+        margin-top: 25%;
+    }
+
+}
+
+
 /* ================== BODY E MAIN =================== */
 
 
@@ -165,6 +177,8 @@ body {
     background-size: cover;
     height: 100vh;
 
+    flex-direction: column;
+
 
     display: flex;
     align-items: center;
@@ -176,7 +190,6 @@ body {
 main {
     background-color: white;
     max-width: 900px;
-    
     
 
     box-shadow: 1px 2px 8px #474a9e;
@@ -378,9 +391,7 @@ fieldset input:focus {
 /* ================== FOOTER =================== */
 
 footer {
-    position: absolute;
-    bottom: 0;
-
+    
     font-family: jost-regular;
     color: black;
     font-size: 15px;
