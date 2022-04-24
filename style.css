@@ -151,12 +151,18 @@
 
 @media only screen and (max-height: 535px) {
     html, body {
-        height: 150vh;
+        height: 160vh !important;
     }
 
-    main {
-        margin-top: 25%;
+
+}
+
+@media only screen and (max-height: 300px) {
+    html, body {
+        height: 200vh !important;
+
     }
+
 
 }
 
@@ -170,14 +176,15 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     background-image: linear-gradient(45deg, #7a7ee9 20%,#6165da, #3E41AD);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 
-    flex-direction: column;
+    
 
 
     display: flex;
@@ -391,7 +398,9 @@ fieldset input:focus {
 /* ================== FOOTER =================== */
 
 footer {
-    
+    position: absolute;
+    bottom: 0;
+
     font-family: jost-regular;
     color: black;
     font-size: 15px;
